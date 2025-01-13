@@ -1,0 +1,100 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">GameZone</div>
+        <nav>
+            <ul>
+                <li><a href="HOME.html">Home</a></li>|
+                <li><a href="action_games.html">Action Games</a></li>|
+                <li><a href="adventure_games.html">Adventure Games</a></li>|
+                <li><a href="horror_games.html">Horror Games</a></li>|
+                <li><a href="survival_games.html">Survival Games</a></li>|
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Other</a>
+                    <div class="dropdown-content">
+                        <a href="about_us.html">About Us</a>
+                        <a href="#contact">Contact Us</a>
+                        <a href="references.html">References</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about-section" id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to GameZone! We are a team of passionate gamers and developers dedicated to bringing you the
+                latest and greatest in gaming entertainment. Our mission is to create a hub for gamers to explore,
+                discover, and share their love for games across all genres.</p>
+            <h1>WEBSITE DEVELOPER</h1><br>
+            <div>
+                <img src='images/theethach.jpg' alt='Theethach Tasachan, Lead Developer and Visionary of GameZone'
+                    style='width:150px;height:150px;border-radius:50%;margin-bottom:15px;'>
+                <h3>Name: Theethach Tasachan</h3>
+                <h3>Student ID: 66312558</h3>
+                <h3>Age: 20</h3>
+                <h3>Gender: Male</h3>
+                <h1>NARAESUAN UNIVERSITY</h1>
+                <p>Lead Developer and Visionary of GameZone</p><br>
+            </div>
+            <h3>Contact Information</h3>
+            <p>Email: theethacht66@nu.ac.th</p>
+            <p>Phone: +66 084-110-4157</p>
+
+            <h3>Follow Us</h3>
+            <p>
+                <a href="https://facebook.com" target="_blank">Facebook</a> |
+                <a href="https://twitter.com" target="_blank">Twitter</a> |
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+            </p>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 GameZone. All rights reserved.</p>
+            <p>
+                Privacy Policy |
+                Terms of Service
+            </p>
+        </div>
+    </footer>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+</body>
+
+</html>
